@@ -7,8 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31C1579559A83AB3A9568BAA /* Pods_mySplash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A37773D63C6CBCB88DBBA3DC /* Pods_mySplash.framework */; };
+		4138A8B11EEFC6670089CAB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BA20361EEC5E1B0089CAB0 /* Assets.xcassets */; };
+		4138A8B21EEFC6680089CAB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BA20361EEC5E1B0089CAB0 /* Assets.xcassets */; };
+		414082921EEE72820089CAB0 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414082911EEE72820089CAB0 /* CollectionViewController.swift */; };
+		414082941EEE72FB0089CAB0 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414082931EEE72FB0089CAB0 /* PhotoViewController.swift */; };
+		4140829A1EEE78D20089CAB0 /* DataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414082991EEE78D20089CAB0 /* DataManger.swift */; };
+		4140829C1EEE78E10089CAB0 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4140829B1EEE78E10089CAB0 /* PhotoModel.swift */; };
+		4140829E1EEE7FB20089CAB0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4140829D1EEE7FB20089CAB0 /* CollectionViewCell.swift */; };
+		414082A01EEE7FC90089CAB0 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4140829F1EEE7FC90089CAB0 /* CreditsView.swift */; };
+		414082A21EEECD4B0089CAB0 /* DelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414082A11EEECD4B0089CAB0 /* DelegateFlowLayout.swift */; };
+		414082A41EEECD720089CAB0 /* ScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414082A31EEECD720089CAB0 /* ScrollViewDelegate.swift */; };
+		414082A71EEF085F0089CAB0 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414082911EEE72820089CAB0 /* CollectionViewController.swift */; };
+		414082A81EEF085F0089CAB0 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414082911EEE72820089CAB0 /* CollectionViewController.swift */; };
 		41BA20301EEC5E1B0089CAB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BA202F1EEC5E1B0089CAB0 /* AppDelegate.swift */; };
-		41BA20321EEC5E1B0089CAB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BA20311EEC5E1B0089CAB0 /* ViewController.swift */; };
 		41BA20351EEC5E1B0089CAB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BA20331EEC5E1B0089CAB0 /* Main.storyboard */; };
 		41BA20371EEC5E1B0089CAB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BA20361EEC5E1B0089CAB0 /* Assets.xcassets */; };
 		41BA203A1EEC5E1B0089CAB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BA20381EEC5E1B0089CAB0 /* LaunchScreen.storyboard */; };
@@ -34,9 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		414082911EEE72820089CAB0 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		414082931EEE72FB0089CAB0 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		414082991EEE78D20089CAB0 /* DataManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManger.swift; sourceTree = "<group>"; };
+		4140829B1EEE78E10089CAB0 /* PhotoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		4140829D1EEE7FB20089CAB0 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		4140829F1EEE7FC90089CAB0 /* CreditsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		414082A11EEECD4B0089CAB0 /* DelegateFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateFlowLayout.swift; sourceTree = "<group>"; };
+		414082A31EEECD720089CAB0 /* ScrollViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewDelegate.swift; sourceTree = "<group>"; };
 		41BA202C1EEC5E1B0089CAB0 /* mySplash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mySplash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41BA202F1EEC5E1B0089CAB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41BA20311EEC5E1B0089CAB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41BA20341EEC5E1B0089CAB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41BA20361EEC5E1B0089CAB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41BA20391EEC5E1B0089CAB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +66,9 @@
 		41BA204B1EEC5E1B0089CAB0 /* mySplashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mySplashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41BA204F1EEC5E1B0089CAB0 /* mySplashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySplashUITests.swift; sourceTree = "<group>"; };
 		41BA20511EEC5E1B0089CAB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A37773D63C6CBCB88DBBA3DC /* Pods_mySplash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mySplash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C012E2A32A7C8E679D86D2B5 /* Pods-mySplash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mySplash.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mySplash/Pods-mySplash.debug.xcconfig"; sourceTree = "<group>"; };
+		C4E032DD4FC061061AFC7B13 /* Pods-mySplash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mySplash.release.xcconfig"; path = "Pods/Target Support Files/Pods-mySplash/Pods-mySplash.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31C1579559A83AB3A9568BAA /* Pods_mySplash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +97,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		414082971EEE788D0089CAB0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				414082991EEE78D20089CAB0 /* DataManger.swift */,
+				4140829B1EEE78E10089CAB0 /* PhotoModel.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		414082981EEE78A90089CAB0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				414082911EEE72820089CAB0 /* CollectionViewController.swift */,
+				414082A11EEECD4B0089CAB0 /* DelegateFlowLayout.swift */,
+				414082931EEE72FB0089CAB0 /* PhotoViewController.swift */,
+				414082A31EEECD720089CAB0 /* ScrollViewDelegate.swift */,
+				4140829D1EEE7FB20089CAB0 /* CollectionViewCell.swift */,
+				4140829F1EEE7FC90089CAB0 /* CreditsView.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
 		41BA20231EEC5E1A0089CAB0 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +126,8 @@
 				41BA20431EEC5E1B0089CAB0 /* mySplashTests */,
 				41BA204E1EEC5E1B0089CAB0 /* mySplashUITests */,
 				41BA202D1EEC5E1B0089CAB0 /* Products */,
+				4B32B0D80B029AD2DEA99878 /* Pods */,
+				BC8D548B1578C2AD4B035CB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +144,12 @@
 		41BA202E1EEC5E1B0089CAB0 /* mySplash */ = {
 			isa = PBXGroup;
 			children = (
-				41BA202F1EEC5E1B0089CAB0 /* AppDelegate.swift */,
-				41BA20311EEC5E1B0089CAB0 /* ViewController.swift */,
 				41BA20331EEC5E1B0089CAB0 /* Main.storyboard */,
-				41BA20361EEC5E1B0089CAB0 /* Assets.xcassets */,
+				41BA202F1EEC5E1B0089CAB0 /* AppDelegate.swift */,
+				414082971EEE788D0089CAB0 /* Data */,
+				414082981EEE78A90089CAB0 /* UI */,
 				41BA20381EEC5E1B0089CAB0 /* LaunchScreen.storyboard */,
+				41BA20361EEC5E1B0089CAB0 /* Assets.xcassets */,
 				41BA203B1EEC5E1B0089CAB0 /* Info.plist */,
 			);
 			path = mySplash;
@@ -125,6 +173,23 @@
 			path = mySplashUITests;
 			sourceTree = "<group>";
 		};
+		4B32B0D80B029AD2DEA99878 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C012E2A32A7C8E679D86D2B5 /* Pods-mySplash.debug.xcconfig */,
+				C4E032DD4FC061061AFC7B13 /* Pods-mySplash.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC8D548B1578C2AD4B035CB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A37773D63C6CBCB88DBBA3DC /* Pods_mySplash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41BA20541EEC5E1B0089CAB0 /* Build configuration list for PBXNativeTarget "mySplash" */;
 			buildPhases = (
+				05916FF5781ADA2FE5387B7F /* [CP] Check Pods Manifest.lock */,
 				41BA20281EEC5E1A0089CAB0 /* Sources */,
 				41BA20291EEC5E1A0089CAB0 /* Frameworks */,
 				41BA202A1EEC5E1A0089CAB0 /* Resources */,
+				D01BB6C0E31DC4CA78C04350 /* [CP] Embed Pods Frameworks */,
+				F50104A1FDD4ACDCEA9F60B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4138A8B11EEFC6670089CAB0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,18 +321,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4138A8B21EEFC6680089CAB0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05916FF5781ADA2FE5387B7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D01BB6C0E31DC4CA78C04350 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mySplash/Pods-mySplash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F50104A1FDD4ACDCEA9F60B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mySplash/Pods-mySplash-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		41BA20281EEC5E1A0089CAB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41BA20321EEC5E1B0089CAB0 /* ViewController.swift in Sources */,
 				41BA20301EEC5E1B0089CAB0 /* AppDelegate.swift in Sources */,
+				414082A01EEE7FC90089CAB0 /* CreditsView.swift in Sources */,
+				414082921EEE72820089CAB0 /* CollectionViewController.swift in Sources */,
+				414082A41EEECD720089CAB0 /* ScrollViewDelegate.swift in Sources */,
+				4140829E1EEE7FB20089CAB0 /* CollectionViewCell.swift in Sources */,
+				414082A21EEECD4B0089CAB0 /* DelegateFlowLayout.swift in Sources */,
+				414082941EEE72FB0089CAB0 /* PhotoViewController.swift in Sources */,
+				4140829C1EEE78E10089CAB0 /* PhotoModel.swift in Sources */,
+				4140829A1EEE78D20089CAB0 /* DataManger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41BA20451EEC5E1B0089CAB0 /* mySplashTests.swift in Sources */,
+				414082A71EEF085F0089CAB0 /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +406,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41BA20501EEC5E1B0089CAB0 /* mySplashUITests.swift in Sources */,
+				414082A81EEF085F0089CAB0 /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +540,7 @@
 		};
 		41BA20551EEC5E1B0089CAB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C012E2A32A7C8E679D86D2B5 /* Pods-mySplash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y795JDBBDK;
@@ -426,6 +554,7 @@
 		};
 		41BA20561EEC5E1B0089CAB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4E032DD4FC061061AFC7B13 /* Pods-mySplash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y795JDBBDK;
@@ -514,6 +643,7 @@
 				41BA20561EEC5E1B0089CAB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41BA20571EEC5E1B0089CAB0 /* Build configuration list for PBXNativeTarget "mySplashTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +652,7 @@
 				41BA20591EEC5E1B0089CAB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41BA205A1EEC5E1B0089CAB0 /* Build configuration list for PBXNativeTarget "mySplashUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +661,7 @@
 				41BA205C1EEC5E1B0089CAB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
