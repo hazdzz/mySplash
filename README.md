@@ -2,4 +2,4 @@
 
 <h3 align = "center"> A simple Unsplash client for iOS by using Swift 3 </h3>  
 
-<h5 align = "center"> ![image](https://github.com/hazdzz/mySplash/blob/master/mySplash_app_demo_video.gif) <h5 align = "center">
+<align = "center"> ![image](https://github.com/hazdzz/mySplash/blob/master/mySplash_app_demo_video.gif) <align = "center">
